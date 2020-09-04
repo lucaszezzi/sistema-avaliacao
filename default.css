@@ -1,0 +1,201 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #1900ff;
+    line-height: 1.75em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+h1, h2, h3
+{
+    text-align: center;
+  }
+
+    p, ol, ul
+{
+    margin-top: 0;
+}
+
+p
+{
+}
+
+
+ol, ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+p
+{
+    line-height: 180%;
+}
+
+.container
+{
+    overflow: hidden;
+    margin: 1em auto;
+    width: 1000px;
+}
+
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+
+.title
+{
+    padding: 0em 0em;
+    margin-bottom: 2em;
+}
+
+.title h2
+{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    color: #383326;
+}
+
+.button
+{
+    display: inline-block;
+    padding: 1em 3em 1em 2em;
+    background: #1900ff;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+}
+
+.button:before
+{
+    display: inline-block;
+    background: #FFC31F;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #272925;
+}
+
+.boxA,
+.boxB,
+.boxC
+{
+    width: 320px;
+}
+
+.boxA,
+.boxB
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.boxC
+{
+    float: right;
+}
+
+#header
+{
+    position: relative;
+    padding: 3em 0em;
+}
+
+#logo
+{
+    position: absolute;
+    top: 2em;
+    left: 0;
+}
+
+#menu
+{
+    position: absolute;
+    top: 2em;
+    right: 0;
+}
+
+#menu ul
+{
+    display: inline-block;
+}
+
+#menu li
+{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#menu li a, #menu li span
+{
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+    background: #ffd900;
+    border-radius: 20px;
+    color: black;
+}
+
+#page
+{
+    overflow: hidden;
+    padding: 5em 0em;
+    background: #ffd900;
+}
+
